@@ -19,11 +19,11 @@ If we want to find the process ID (PID) of the process running on the given port
 
 this will return something like: 
 
-`
+```
 COMMAND     PID   USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
-node      10958 dmitri   13u  IPv6 0x83649da50921b2ff      0t0  TCP *:http-alt (LISTEN)
-`
 
+node      10958 dmitri   13u  IPv6 0x83649da50921b2ff      0t0  TCP *:http-alt (LISTEN)
+```
 
 You might be tempted to just do a `KILL -9` on the above process ID. 
 
